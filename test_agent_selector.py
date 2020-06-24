@@ -1,7 +1,7 @@
 import unittest
 from agent import Agent
 from issue import Issue
-from agent_selecter import AgentSelector
+from agent_selector import AgentSelector
 from datetime import time
 
 class TestAgentSelector(unittest.TestCase):
