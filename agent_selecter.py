@@ -73,7 +73,7 @@ class AgentSelector:
 
         '''This function is called when the agent_selection_mode is random.
         It first adds all the agents that match the roles of the issue to a list.
-        This it generates a random integer between 0 and length of list-1 using random module.
+        Then it generates a random integer between 0 and (length of list-1) using random module.
         Then returns the agent at that index'''
 
         #this list stores all the found agents
