@@ -14,9 +14,10 @@ The agent fields are : discription, roles(list of roles)
 
 agent_selector.py->
 
-agent_selector.py file consists of a class AgentSelector.This class creates has 3 attributes
+This file contains the main code for selecting agent's.
+agent_selector.py file consists of a class AgentSelector.This class has 3 fields
 1- agent_selection_mode
-2- agent_list : we sort the agent list on the basis of available since attribute.This helps in finding the least_busy agent.
+2- agent_list : we sort the agent list on the basis of available_since attribute.This helps in finding the least_busy agent.
 3- issues_queue
 
 AgentSelector class has following functions:
