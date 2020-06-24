@@ -125,21 +125,21 @@ class AgentSelector:
         return selected_agents_for_all_issues
 
 
-if __name__ == '__main__':
-    agent1 = Agent('kanishk', True, time(9,20,0),['developer','analyst'])
-    agent2 = Agent('ayushya', True, time(8,20,0),['developer','analyst', 'writer'])
+# if __name__ == '__main__':
+#     agent1 = Agent('kanishk', True, time(9,20,0),['developer','analyst'])
+#     agent2 = Agent('ayushya', True, time(8,20,0),['developer','analyst', 'writer'])
 
-    agent_list = [agent1,agent2]
+#     agent_list = [agent1,agent2]
 
-    issue1 = Issue(roles= ['developer','analyst'])
-    issue2 = Issue(roles = ['analyst'])
+#     issue1 = Issue(roles= ['developer','analyst'])
+#     issue2 = Issue(roles = ['analyst'])
 
-    issue_list = [issue1, issue2]
+#     issue_list = [issue1, issue2]
 
-    agent_selector = AgentSelector('random', agent_list, issue_list)
-    print(agent_selector.select_agents())
+#     agent_selector = AgentSelector('random', agent_list, issue_list)
+#     print(agent_selector.select_agents())
 
-    for selected_agents in agent_selector.select_agents():
-        for selected_agents_per_issue in selected_agents:
-            print(selected_agents_per_issue)
-        print()
+#     for selected_agents in agent_selector.select_agents():
+#         for selected_agents_per_issue in selected_agents:
+#             print(selected_agents_per_issue)
+#         print()
