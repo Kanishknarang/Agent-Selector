@@ -1,21 +1,16 @@
 # Agent-Selector
 
 The project consists of 4 files:
--agent.py : consists of a class Agent used for creating agent objects
--issue.py : consists of a class Issue used for creating issue objects
--agent_selector.py : it is the main file of the project where all the work of selecting agents is done.
--test_agent_selector : it consists of unit tests for testing our project
-
 
 agent.py->
 
 this file consists of a class Agent which is used for creating Agent objects.
-The agent field are : name, is_available, available_since roles(list of roles)
+The agent fields are : name, is_available, available_since, roles(list of roles)
 
 issues.py->
 
 this file consists of a class Issue which is used for creating Issue objects.
-The agent field are : discription, roles(list of roles)
+The agent fields are : discription, roles(list of roles)
 
 agent_selector.py->
 
